@@ -1,0 +1,42 @@
+<acceptance-test-run title="Searching by keyword apple should display the corresponding article" name="searching_by_keyword_apple_should_display_the_corresponding_article" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="8134" timestamp="2016-04-03T12:46:25.845+03:00">
+  <user-story id="test.features.search.SearchByKeywordStory" name="Search by keyword story" path="test.features.search"/>
+  <issues>
+    <issue>#WIKI-1</issue>
+  </issues>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Search by keyword story" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="2060">
+    <screenshots>
+      <screenshot image="0a83fccb0508d49ab0b94ebb3e723d11.png"/>
+      <screenshot image="53f364bffafd4bb358fddfe602da7b5a.png"/>
+    </screenshots>
+    <description>Is the home page</description>
+  </test-step>
+  <test-group name="Looks for: &lt;span class=&apos;step-parameter&apos;&gt;apple&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="53f364bffafd4bb358fddfe602da7b5a.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1018">
+      <screenshots>
+        <screenshot image="73cda86f2c1b8b86d6a63ea1e61ea435.png"/>
+      </screenshots>
+      <description>Enters: &lt;span class=&apos;step-parameter&apos;&gt;apple&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2427">
+      <screenshots>
+        <screenshot image="73cda86f2c1b8b86d6a63ea1e61ea435.png"/>
+        <screenshot image="afe3356a407490fc4b46171f0b8b1cf5.png"/>
+      </screenshots>
+      <description>Starts search</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="1477">
+    <screenshots>
+      <screenshot image="afe3356a407490fc4b46171f0b8b1cf5.png"/>
+    </screenshots>
+    <description>Should see definition: &lt;span class=&apos;step-parameter&apos;&gt;A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

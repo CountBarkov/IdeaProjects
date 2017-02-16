@@ -1,0 +1,10 @@
+<acceptance-test-run title="Test" name="test" steps="0" successful="0" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16858" timestamp="2016-09-30T16:47:24.264+03:00">
+  <user-story id="test.features.Reports" name="Reports" path="test.features"/>
+  <issues>
+    <issue>#login Stage-Reports</issue>
+  </issues>
+  <tags>
+    <tag name="Reports" type="feature"/>
+    <tag name="Reports" type="story"/>
+  </tags>
+</acceptance-test-run>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="test.features.search.Tr23" skipped="0" tests="1" time="10.21" timestamp="2016-04-96 12:23:42"><testcase classname="test.features.search.Tr23" name="Test"><error type="java.lang.NullPointerException"/><system-err>null
+test.steps.serenity.EndUserSteps.is_the_google_page(EndUserSteps.java:15)
+test.features.search.Tr23.test(Tr23.java:25)
+</system-err></testcase></testsuite>

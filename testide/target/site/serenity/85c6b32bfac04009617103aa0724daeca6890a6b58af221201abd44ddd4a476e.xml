@@ -1,0 +1,38 @@
+<acceptance-test-run title="Searching by keyword banana should display the corresponding article" name="searching_by_keyword_banana_should_display_the_corresponding_article" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12960" timestamp="2016-04-03T12:46:12.843+03:00">
+  <user-story id="test.features.search.SearchByKeywordStory" name="Search by keyword story" path="test.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Search by keyword story" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="6467">
+    <screenshots>
+      <screenshot image="c9a33a88738a28d9e21f7e4778c8144f.png"/>
+    </screenshots>
+    <description>Is the home page</description>
+  </test-step>
+  <test-group name="Looks for: &lt;span class=&apos;step-parameter&apos;&gt;pear&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="0a83fccb0508d49ab0b94ebb3e723d11.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1291">
+      <screenshots>
+        <screenshot image="f0620b0321a6fb532ceaa603bb923e7a.png"/>
+      </screenshots>
+      <description>Enters: &lt;span class=&apos;step-parameter&apos;&gt;pear&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2617">
+      <screenshots>
+        <screenshot image="f0620b0321a6fb532ceaa603bb923e7a.png"/>
+        <screenshot image="d1e7fbe4b9c68d0ab2e12ec93a812a37.png"/>
+      </screenshots>
+      <description>Starts search</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="936">
+    <screenshots>
+      <screenshot image="0a83fccb0508d49ab0b94ebb3e723d11.png"/>
+    </screenshots>
+    <description>Should see definition: &lt;span class=&apos;step-parameter&apos;&gt;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

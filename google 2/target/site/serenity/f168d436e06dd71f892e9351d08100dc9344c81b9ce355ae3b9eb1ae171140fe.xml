@@ -1,0 +1,11 @@
+<acceptance-test-run title="Test" name="test" steps="0" successful="0" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="24566" timestamp="2016-10-10T12:38:04.700+03:00">
+  <user-story id="test.features.search.Tr23" name="Tr23" path="test.features.search"/>
+  <issues>
+    <issue>#login 23Traders</issue>
+  </issues>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Tr23" type="story"/>
+  </tags>
+</acceptance-test-run>

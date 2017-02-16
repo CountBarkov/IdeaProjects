@@ -1,0 +1,17 @@
+<acceptance-test-run title="Test" name="test" steps="1" successful="0" failures="0" errors="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="10214" timestamp="2016-04-05T12:23:42.834+03:00">
+  <user-story id="test.features.search.Tr23" name="Tr23" path="test.features.search"/>
+  <issues>
+    <issue>#login 23Traders</issue>
+  </issues>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Tr23" type="story"/>
+  </tags>
+  <test-step result="ERROR" duration="20">
+    <description>Is the google page</description>
+    <error>java.lang.NullPointerException</error>
+    <exception>java.lang.NullPointerException:null
+[test.steps.serenity.EndUserSteps.is_the_google_page(EndUserSteps.java:15), test.features.search.Tr23.test(Tr23.java:25)]</exception>
+  </test-step>
+</acceptance-test-run>

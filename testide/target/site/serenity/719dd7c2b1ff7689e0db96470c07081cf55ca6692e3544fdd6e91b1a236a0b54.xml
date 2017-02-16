@@ -1,0 +1,11 @@
+<acceptance-test-run title="Test" name="test" steps="0" successful="0" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="29934" timestamp="2016-04-04T12:24:35.873+03:00">
+  <user-story id="test.features.search.SearchByKeywordStory" name="Search by keyword story" path="test.features.search"/>
+  <issues>
+    <issue>#login 23Traders</issue>
+  </issues>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Search by keyword story" type="story"/>
+  </tags>
+</acceptance-test-run>

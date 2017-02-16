@@ -1,0 +1,11 @@
+<acceptance-test-run title="Test" name="test" steps="0" successful="0" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17034" timestamp="2016-09-30T14:04:39.138+03:00">
+  <user-story id="test.features.search.Reports" name="Reports" path="test.features.search"/>
+  <issues>
+    <issue>#login Stage-Reports</issue>
+  </issues>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Reports" type="story"/>
+  </tags>
+</acceptance-test-run>
